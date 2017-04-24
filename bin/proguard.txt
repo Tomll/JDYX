@@ -1,0 +1,335 @@
+# view res/layout/car_detil.xml #generated:36
+# view res/layout/pop_car_map.xml #generated:84
+# view res/layout/welcome.xml #generated:6
+-keep class android.support.v4.view.ViewPager { <init>(...); }
+
+# view res/layout/location.xml #generated:2
+-keep class android.support.v4.widget.DrawerLayout { <init>(...); }
+
+# view AndroidManifest.xml #generated:249
+-keep class com.alipay.sdk.app.H5PayActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:255
+-keep class com.alipay.sdk.auth.AuthActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:356
+-keep class com.baidu.android.pushservice.CommandService { <init>(...); }
+
+# view AndroidManifest.xml #generated:295
+-keep class com.baidu.android.pushservice.PushKeepAlive { <init>(...); }
+
+# view AndroidManifest.xml #generated:347
+-keep class com.baidu.android.pushservice.PushService { <init>(...); }
+
+# view AndroidManifest.xml #generated:300
+-keep class com.baidu.android.pushservice.PushServiceReceiver { <init>(...); }
+
+# view AndroidManifest.xml #generated:320
+-keep class com.baidu.android.pushservice.RegistrationReceiver { <init>(...); }
+
+# view AndroidManifest.xml #generated:285
+-keep class com.baidu.location.f { <init>(...); }
+
+# view res/layout/car_state_map.xml #generated:42
+# view res/layout/get_car_walk_rout_plan.xml #generated:31
+# view res/layout/location.xml #generated:36
+# view res/layout/park_state_map.xml #generated:42
+-keep class com.baidu.mapapi.map.MapView { <init>(...); }
+
+# view AndroidManifest.xml #generated:28
+-keep class com.jdyxtech.jindouyunxing.MainActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:11
+-keep class com.jdyxtech.jindouyunxing.MyApp { <init>(...); }
+
+# view AndroidManifest.xml #generated:158
+-keep class com.jdyxtech.jindouyunxing.activity.AboutUs { <init>(...); }
+
+# view AndroidManifest.xml #generated:107
+-keep class com.jdyxtech.jindouyunxing.activity.BNDemoGuideActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:335
+-keep class com.jdyxtech.jindouyunxing.activity.BaiDuPushResiver { <init>(...); }
+
+# view AndroidManifest.xml #generated:72
+-keep class com.jdyxtech.jindouyunxing.activity.CarDetil { <init>(...); }
+
+# view AndroidManifest.xml #generated:208
+-keep class com.jdyxtech.jindouyunxing.activity.CarNodeList { <init>(...); }
+
+# view AndroidManifest.xml #generated:92
+-keep class com.jdyxtech.jindouyunxing.activity.CarStateList { <init>(...); }
+
+# view AndroidManifest.xml #generated:87
+-keep class com.jdyxtech.jindouyunxing.activity.CarStateMap { <init>(...); }
+
+# view AndroidManifest.xml #generated:229
+-keep class com.jdyxtech.jindouyunxing.activity.ChangePhoneNum { <init>(...); }
+
+# view AndroidManifest.xml #generated:203
+-keep class com.jdyxtech.jindouyunxing.activity.ConfirmIdPhoto { <init>(...); }
+
+# view AndroidManifest.xml #generated:118
+-keep class com.jdyxtech.jindouyunxing.activity.CurrentTravel { <init>(...); }
+
+# view AndroidManifest.xml #generated:153
+-keep class com.jdyxtech.jindouyunxing.activity.Evaluate { <init>(...); }
+
+# view AndroidManifest.xml #generated:198
+-keep class com.jdyxtech.jindouyunxing.activity.FeedBack { <init>(...); }
+
+# view AndroidManifest.xml #generated:113
+-keep class com.jdyxtech.jindouyunxing.activity.GetCar { <init>(...); }
+
+# view AndroidManifest.xml #generated:235
+-keep class com.jdyxtech.jindouyunxing.activity.GetCarWalkRoutePlan { <init>(...); }
+
+# view AndroidManifest.xml #generated:66
+-keep class com.jdyxtech.jindouyunxing.activity.Location { <init>(...); }
+
+# view AndroidManifest.xml #generated:44
+-keep class com.jdyxtech.jindouyunxing.activity.Login { <init>(...); }
+
+# view AndroidManifest.xml #generated:188
+-keep class com.jdyxtech.jindouyunxing.activity.MyCoupon { <init>(...); }
+
+# view AndroidManifest.xml #generated:183
+-keep class com.jdyxtech.jindouyunxing.activity.MyDeposit { <init>(...); }
+
+# view AndroidManifest.xml #generated:193
+-keep class com.jdyxtech.jindouyunxing.activity.MyIntegral { <init>(...); }
+
+# view AndroidManifest.xml #generated:148
+-keep class com.jdyxtech.jindouyunxing.activity.MyTravel { <init>(...); }
+
+# view AndroidManifest.xml #generated:143
+-keep class com.jdyxtech.jindouyunxing.activity.MyTravelList { <init>(...); }
+
+# view AndroidManifest.xml #generated:178
+-keep class com.jdyxtech.jindouyunxing.activity.MyWallet { <init>(...); }
+
+# view AndroidManifest.xml #generated:213
+-keep class com.jdyxtech.jindouyunxing.activity.ParkNodeList { <init>(...); }
+
+# view AndroidManifest.xml #generated:102
+-keep class com.jdyxtech.jindouyunxing.activity.ParkStateList { <init>(...); }
+
+# view AndroidManifest.xml #generated:97
+-keep class com.jdyxtech.jindouyunxing.activity.ParkStateMap { <init>(...); }
+
+# view AndroidManifest.xml #generated:128
+-keep class com.jdyxtech.jindouyunxing.activity.Pay { <init>(...); }
+
+# view AndroidManifest.xml #generated:138
+-keep class com.jdyxtech.jindouyunxing.activity.PayFail { <init>(...); }
+
+# view AndroidManifest.xml #generated:123
+-keep class com.jdyxtech.jindouyunxing.activity.PayPreview { <init>(...); }
+
+# view AndroidManifest.xml #generated:133
+-keep class com.jdyxtech.jindouyunxing.activity.PaySuccess { <init>(...); }
+
+# view AndroidManifest.xml #generated:50
+-keep class com.jdyxtech.jindouyunxing.activity.Regist { <init>(...); }
+
+# view AndroidManifest.xml #generated:56
+-keep class com.jdyxtech.jindouyunxing.activity.ResetPwd { <init>(...); }
+
+# view AndroidManifest.xml #generated:61
+-keep class com.jdyxtech.jindouyunxing.activity.ResetPwdSuccess { <init>(...); }
+
+# view AndroidManifest.xml #generated:218
+-keep class com.jdyxtech.jindouyunxing.activity.SetHeadImage { <init>(...); }
+
+# view AndroidManifest.xml #generated:163
+-keep class com.jdyxtech.jindouyunxing.activity.SmsVerify { <init>(...); }
+
+# view AndroidManifest.xml #generated:77
+-keep class com.jdyxtech.jindouyunxing.activity.SubmitOrder { <init>(...); }
+
+# view AndroidManifest.xml #generated:240
+-keep class com.jdyxtech.jindouyunxing.activity.SupplementDeposite { <init>(...); }
+
+# view AndroidManifest.xml #generated:173
+-keep class com.jdyxtech.jindouyunxing.activity.SystemMessage { <init>(...); }
+
+# view AndroidManifest.xml #generated:168
+-keep class com.jdyxtech.jindouyunxing.activity.SystemMessageList { <init>(...); }
+
+# view AndroidManifest.xml #generated:39
+-keep class com.jdyxtech.jindouyunxing.activity.Welcome { <init>(...); }
+
+# view AndroidManifest.xml #generated:82
+-keep class com.jdyxtech.jindouyunxing.activity.YouOrder { <init>(...); }
+
+# view res/layout/include_timepicker.xml #generated:14
+# view res/layout/include_timepicker.xml #generated:20
+# view res/layout/include_timepicker.xml #generated:26
+# view res/layout/include_timepicker.xml #generated:32
+# view res/layout/include_timepicker.xml #generated:8
+-keep class com.jdyxtech.jindouyunxing.wheelview_lib.WheelView { <init>(...); }
+
+# view res/layout/aaa.xml #generated:13
+# view res/layout/location.xml #generated:177
+# view res/layout/set_head_image.xml #generated:6
+-keep class com.jdyxtech.jindouyunxing.widget.CircleImageView { <init>(...); }
+
+# view AndroidManifest.xml #generated:223
+-keep class com.jdyxtech.jindouyunxing.wxapi.WXPayEntryActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:276
+-keep class com.unionpay.UPPayWapActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:269
+-keep class com.unionpay.uppay.PayActivity { <init>(...); }
+
+# onClick res/layout/aaa.xml #generated:110
+# onClick res/layout/aaa.xml #generated:125
+# onClick res/layout/aaa.xml #generated:151
+# onClick res/layout/aaa.xml #generated:177
+# onClick res/layout/aaa.xml #generated:203
+# onClick res/layout/aaa.xml #generated:47
+# onClick res/layout/aaa.xml #generated:74
+# onClick res/layout/about_us.xml #generated:22
+# onClick res/layout/car_detil.xml #generated:114
+# onClick res/layout/car_detil.xml #generated:21
+# onClick res/layout/car_node_list.xml #generated:22
+# onClick res/layout/car_node_list.xml #generated:32
+# onClick res/layout/car_state_list.xml #generated:21
+# onClick res/layout/car_state_map.xml #generated:22
+# onClick res/layout/car_state_map.xml #generated:32
+# onClick res/layout/change_phone_num.xml #generated:22
+# onClick res/layout/change_phone_num.xml #generated:77
+# onClick res/layout/confirm_id_photo.xml #generated:23
+# onClick res/layout/confirm_id_photo.xml #generated:80
+# onClick res/layout/confirm_id_photo.xml #generated:92
+# onClick res/layout/current_travel.xml #generated:127
+# onClick res/layout/current_travel.xml #generated:159
+# onClick res/layout/current_travel.xml #generated:191
+# onClick res/layout/current_travel.xml #generated:23
+# onClick res/layout/current_travel.xml #generated:282
+# onClick res/layout/current_travel.xml #generated:310
+# onClick res/layout/current_travel.xml #generated:355
+# onClick res/layout/current_travel.xml #generated:374
+# onClick res/layout/current_travel.xml #generated:94
+# onClick res/layout/evaluate.xml #generated:115
+# onClick res/layout/evaluate.xml #generated:12
+# onClick res/layout/evaluate.xml #generated:126
+# onClick res/layout/evaluate.xml #generated:137
+# onClick res/layout/evaluate.xml #generated:148
+# onClick res/layout/evaluate.xml #generated:159
+# onClick res/layout/evaluate.xml #generated:186
+# onClick res/layout/evaluate.xml #generated:215
+# onClick res/layout/evaluate.xml #generated:51
+# onClick res/layout/evaluate.xml #generated:62
+# onClick res/layout/evaluate.xml #generated:73
+# onClick res/layout/evaluate.xml #generated:84
+# onClick res/layout/evaluate.xml #generated:95
+# onClick res/layout/feedback.xml #generated:21
+# onClick res/layout/feedback.xml #generated:65
+# onClick res/layout/fragment_check_fali.xml #generated:46
+# onClick res/layout/fragment_check_success.xml #generated:55
+# onClick res/layout/fragment_check_success.xml #generated:76
+# onClick res/layout/get_car.xml #generated:117
+# onClick res/layout/get_car.xml #generated:14
+# onClick res/layout/get_car.xml #generated:222
+# onClick res/layout/get_car.xml #generated:249
+# onClick res/layout/get_car.xml #generated:93
+# onClick res/layout/get_car_walk_rout_plan.xml #generated:13
+# onClick res/layout/location.xml #generated:145
+# onClick res/layout/location.xml #generated:177
+# onClick res/layout/location.xml #generated:19
+# onClick res/layout/location.xml #generated:198
+# onClick res/layout/location.xml #generated:216
+# onClick res/layout/location.xml #generated:243
+# onClick res/layout/location.xml #generated:281
+# onClick res/layout/location.xml #generated:296
+# onClick res/layout/location.xml #generated:323
+# onClick res/layout/location.xml #generated:350
+# onClick res/layout/location.xml #generated:377
+# onClick res/layout/location.xml #generated:43
+# onClick res/layout/location.xml #generated:57
+# onClick res/layout/login.xml #generated:122
+# onClick res/layout/login.xml #generated:134
+# onClick res/layout/login.xml #generated:99
+# onClick res/layout/my_coupon.xml #generated:20
+# onClick res/layout/my_coupon.xml #generated:30
+# onClick res/layout/my_deposit.xml #generated:21
+# onClick res/layout/my_deposit.xml #generated:49
+# onClick res/layout/my_deposit.xml #generated:61
+# onClick res/layout/my_integral.xml #generated:21
+# onClick res/layout/my_integral.xml #generated:49
+# onClick res/layout/my_travel.xml #generated:13
+# onClick res/layout/my_travel.xml #generated:39
+# onClick res/layout/my_travel.xml #generated:418
+# onClick res/layout/my_travel.xml #generated:429
+# onClick res/layout/my_travel.xml #generated:440
+# onClick res/layout/my_travel.xml #generated:451
+# onClick res/layout/my_travel.xml #generated:462
+# onClick res/layout/my_travel.xml #generated:482
+# onClick res/layout/my_travel.xml #generated:493
+# onClick res/layout/my_travel.xml #generated:504
+# onClick res/layout/my_travel.xml #generated:515
+# onClick res/layout/my_travel.xml #generated:526
+# onClick res/layout/my_travel_list.xml #generated:22
+# onClick res/layout/my_value_card.xml #generated:21
+# onClick res/layout/my_value_card.xml #generated:49
+# onClick res/layout/my_wallet.xml #generated:115
+# onClick res/layout/my_wallet.xml #generated:154
+# onClick res/layout/my_wallet.xml #generated:20
+# onClick res/layout/my_wallet.xml #generated:37
+# onClick res/layout/my_wallet.xml #generated:76
+# onClick res/layout/park_node_list.xml #generated:22
+# onClick res/layout/park_node_list.xml #generated:32
+# onClick res/layout/park_state_list.xml #generated:13
+# onClick res/layout/park_state_map.xml #generated:137
+# onClick res/layout/park_state_map.xml #generated:22
+# onClick res/layout/park_state_map.xml #generated:32
+# onClick res/layout/pay.xml #generated:130
+# onClick res/layout/pay.xml #generated:15
+# onClick res/layout/pay_fail.xml #generated:149
+# onClick res/layout/pay_fail.xml #generated:24
+# onClick res/layout/pay_preview.xml #generated:14
+# onClick res/layout/pay_preview.xml #generated:276
+# onClick res/layout/pay_preview.xml #generated:328
+# onClick res/layout/pay_preview.xml #generated:402
+# onClick res/layout/pay_success.xml #generated:116
+# onClick res/layout/pay_success.xml #generated:22
+# onClick res/layout/poplayout_map_poi.xml #generated:41
+# onClick res/layout/poplayout_map_poi.xml #generated:59
+# onClick res/layout/popwindowlayout.xml #generated:35
+# onClick res/layout/popwindowlayout.xml #generated:59
+# onClick res/layout/regist.xml #generated:19
+# onClick res/layout/regist.xml #generated:222
+# onClick res/layout/regist.xml #generated:232
+# onClick res/layout/regist.xml #generated:247
+# onClick res/layout/regist.xml #generated:257
+# onClick res/layout/regist.xml #generated:268
+# onClick res/layout/reset_pwd.xml #generated:13
+# onClick res/layout/reset_pwd.xml #generated:64
+# onClick res/layout/reset_pwd_success.xml #generated:14
+# onClick res/layout/reset_pwd_success.xml #generated:51
+# onClick res/layout/set_head_image.xml #generated:18
+# onClick res/layout/set_head_image.xml #generated:30
+# onClick res/layout/set_head_image.xml #generated:6
+# onClick res/layout/sms_verify.xml #generated:113
+# onClick res/layout/sms_verify.xml #generated:14
+# onClick res/layout/sms_verify.xml #generated:83
+# onClick res/layout/submit_order.xml #generated:122
+# onClick res/layout/submit_order.xml #generated:15
+# onClick res/layout/submit_order.xml #generated:195
+# onClick res/layout/submit_order.xml #generated:213
+# onClick res/layout/supplement_deposit.xml #generated:21
+# onClick res/layout/supplement_deposit.xml #generated:66
+# onClick res/layout/supplement_value_card.xml #generated:21
+# onClick res/layout/supplement_value_card.xml #generated:45
+# onClick res/layout/system_message.xml #generated:21
+# onClick res/layout/system_message_list.xml #generated:22
+# onClick res/layout/system_message_list.xml #generated:31
+# onClick res/layout/system_message_list.xml #generated:59
+# onClick res/layout/system_message_list.xml #generated:72
+# onClick res/layout/your_order.xml #generated:15
+# onClick res/layout/your_order.xml #generated:387
+# onClick res/layout/your_order.xml #generated:400
+-keepclassmembers class * { *** onClick(...); }
+

@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <ImageView
+            android:id="@+id/image_logo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="50dp"
+            android:background="@drawable/about_us" />
+
+        <RelativeLayout
+            android:id="@+id/relative_editName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/image_logo"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="40dp" >
+
+            <ImageView
+                android:id="@+id/imageView_uname"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="10dp"
+                android:background="@drawable/head" />
+
+            <EditText
+                android:id="@+id/edit_umane"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@id/imageView_uname"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_toRightOf="@id/imageView_uname"
+                android:background="@null"
+                android:hint="输入手机号"
+                android:inputType="phone"
+                android:maxLength="11" />
+        </RelativeLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_below="@id/relative_editName"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="10dp"
+            android:background="@color/grey" />
+
+        <RelativeLayout
+            android:id="@+id/relative_editPwd"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/relative_editName"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="30dp" >
+
+            <ImageView
+                android:id="@+id/imageView_pwd"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="10dp"
+                android:background="@drawable/lock" />
+
+            <EditText
+                android:id="@+id/edit_pwd"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@id/imageView_pwd"
+                android:layout_marginLeft="10dp"
+                android:layout_toRightOf="@id/imageView_pwd"
+                android:background="@null"
+                android:hint="输入密码"
+                android:inputType="textPassword" />
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/text_devide2"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_below="@id/relative_editPwd"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="10dp"
+            android:background="@color/grey" />
+
+        <Button
+            android:id="@+id/button_login"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/text_devide2"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginTop="40dp"
+            android:background="@color/lightgreen"
+            android:onClick="onClick"
+            android:text="登 录"
+            android:textColor="@color/white"
+            android:textSize="20sp" />
+
+        <RelativeLayout
+            android:id="@+id/relative_regist_reset"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/button_login"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="30dp" >
+
+            <TextView
+                android:id="@+id/textView_forgetPwd"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="10dp"
+                android:clickable="true"
+                android:onClick="onClick"
+                android:text="&lt; 忘记密码？"
+                android:textColor="@color/lightgreen"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/textView_regist"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="10dp"
+                android:clickable="true"
+                android:onClick="onClick"
+                android:text="马上去注册 >"
+                android:textColor="@color/lightgreen"
+                android:textSize="16sp" />
+        </RelativeLayout>
+    </RelativeLayout>
+
+</ScrollView>

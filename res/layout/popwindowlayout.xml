@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="10dp"
+        android:text="出行时间"
+        android:textSize="17sp" />
+
+    <RelativeLayout
+        android:id="@+id/re_PickView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textView1"
+        android:layout_margin="10dp" >
+
+        <include
+            android:id="@+id/timepicker"
+            layout="@layout/include_timepicker" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@id/timepicker"
+            android:layout_alignTop="@id/timepicker"
+            android:background="@drawable/bg_above_timepicker" />
+    </RelativeLayout>
+
+    <ImageView
+        android:id="@+id/imageView_add"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/re_PickView"
+        android:layout_marginRight="10dp"
+        android:clickable="true"
+        android:onClick="onClick"
+        android:src="@drawable/add" />
+
+    <EditText
+        android:id="@+id/editText1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@id/imageView_add"
+        android:layout_margin="6dp"
+        android:layout_toLeftOf="@id/imageView_add"
+        android:background="@null"
+        android:inputType="number"
+        android:text="1"
+        android:textSize="23sp" >
+    </EditText>
+
+    <ImageView
+        android:id="@+id/imageView_min"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/imageView_add"
+        android:layout_toLeftOf="@+id/editText1"
+        android:clickable="true"
+        android:onClick="onClick"
+        android:src="@drawable/min" />
+
+    <TextView
+        android:id="@+id/textView_peopleNum"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/editText1"
+        android:layout_alignBottom="@+id/editText1"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="10dp"
+        android:text="乘坐人数"
+        android:textSize="17sp" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/textView_peopleNum"
+        android:layout_marginTop="15dp"
+        android:background="@color/white"
+        android:text="确定"
+        android:textColor="@color/lightgreen" />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/textView_peopleNum"
+        android:layout_marginTop="15dp"
+        android:background="@color/white"
+        android:text="取消"
+        android:textColor="@color/lightgreen" />
+
+</RelativeLayout>
